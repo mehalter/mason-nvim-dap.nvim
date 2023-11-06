@@ -258,4 +258,15 @@ M.haskell = {
 	},
 }
 
+M.puppet = {
+	{
+		type = 'puppet',
+		request = 'launch',
+		name = 'Launch puppet',
+		manifest = '${file}',
+		noop = true,
+		cwd = '${workspaceFolder}',
+	},
+}
+
 return M

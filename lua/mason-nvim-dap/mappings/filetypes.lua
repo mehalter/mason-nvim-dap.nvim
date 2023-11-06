@@ -14,6 +14,7 @@ local M = {
 	['mix_task'] = { 'elixir' },
 	['node2'] = { 'javascriptreact', 'typescriptreact', 'typescript', 'javascript' },
 	['php'] = { 'php' },
+	['puppet'] = { 'puppet' },
 	['python'] = { 'python' },
 	['haskell'] = { 'haskell' },
 }
